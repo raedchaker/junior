@@ -1,0 +1,84 @@
+<!-- layout-->
+<div id="layout">
+
+    <app-header></app-header>
+    <!-- Section Title -->
+    <div class="section-title" style="background:url(../../assets/img/slide/1.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Liste des Compétitions</h1>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li>Inner Page</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section Title -->
+    <br>
+
+
+    <div class="m-5">
+        <h1>Nos Compétitions :</h1>
+        <table class="table col align-self-center">
+            <thead>
+            <tr>
+                <th scope="col">Nom de la competition</th>
+                <th scope="col">Description</th>
+                <th scope="col">Type</th>
+                <th scope="col">Resultat</th>
+                <th scope="col">Bilan</th>
+                <th scope="col">Record</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let comp of competitionsList">
+                <td><h3><a href="/competition/{{comp.name}}" class="badge badge-light">  {{comp.name}} </a></h3></td>
+                <td> {{comp.description}} </td>
+                <td> {{comp.type}} </td>
+                <td> {{comp.result}} </td>
+                <td> {{comp.bilan}} </td>
+                <td> {{comp.record}} </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="container padding-top">
+        <div class="row portfolioContainer">
+            <div *ngFor="let c of competitionsList" class="col-md-6 col-lg-4 col-xl-3">
+                <div class="item-team">
+                    <div class="head-team">
+                        <img src="assets/img/competitions/{{c.image}}" alt="location-team">
+                    </div>
+                    <div class="info-team">
+                        <h4> {{c.name}} </h4>
+                        <span class="location-team">
+                    {{c.type}}
+                                    </span>
+                        <span class="group-team">
+                    {{c.result}}
+                                    </span>
+                        <span class="group-team">
+                            record :
+                            {{c.record}}
+                                    </span>
+                    </div>
+                    <a href="competition/{{c.id}}" class="btn"> voir plus <i class="fa fa-angle-right"
+                                                                             aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <!-- End Section Area -  Content Central -->
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

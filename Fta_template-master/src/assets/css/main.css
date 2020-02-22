@@ -5,6 +5,7 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
 @import url(../font-awesome/4.5.0/css/font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
@@ -739,7 +740,6 @@ pre code {
     max-width: 1300px;
   }
 }
-
 /* line 18, ../sass/bootstrap/_grid.scss */
 .container-fluid {
   width: 100%;
@@ -4251,10 +4251,32 @@ tbody.collapse.show {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: white;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+}
+.containerCard{
+  width: 90%;
+  padding: 10px;
+  background: white;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width: 250px;
+  height: 300px;
+  background: white;
+  float: left;
+  margin: 0px 10px;
+  transition: 1s;
+}
+.box:hover{
+  transform: scale(1.3);
+  background: #0d0d0d;
+  box-shadow: 2px 2px 2px #000;
+  z-index: 2;
 }
 
 /* line 17, ../sass/bootstrap/_card.scss */
@@ -4272,6 +4294,11 @@ tbody.collapse.show {
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
+}
+.card:hover{
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
 }
 
 /* line 33, ../sass/bootstrap/_card.scss */
@@ -11554,8 +11581,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 .btn.theme,
 .section-title.single-result .result-match,
 .clear-title:after {
-  background: #01d099 !important;
-  background-color: #01d099 !important;
+  background: #d52f37 !important;
+  background-color: #d52f37 !important;
 }
 
 /* Colors ----------------------------------------------------------*/
@@ -11598,14 +11625,14 @@ footer.footer-2 .links-footer ul li a:hover,
 .section-title-team h6 strong,
 .section-title-team h6 a,
 .recent-results .info-results ul li .head .date {
-  color: #01d099;
+  color: #d52f37;
 }
 
 /* Borders ----------------------------------------------------------*/
 /* line 74, ../sass/_partials/_skins.scss */
 .nav-tabs li a.active:after,
 .nav-tabs li.active a:after {
-  border: 6px solid #01d099;
+  border: 6px solid #d52f37;
   border-left-color: transparent;
   border-right-color: transparent;
   border-bottom-color: transparent;
@@ -11614,36 +11641,36 @@ footer.footer-2 .links-footer ul li a:hover,
 /* line 82, ../sass/_partials/_skins.scss */
 .style-caption p,
 .item-clubs {
-  border-right: 5px solid #01d099;
+  border-right: 5px solid #d52f37;
 }
 
 /* line 86, ../sass/_partials/_skins.scss */
 .titles h4 {
-  border-left: 5px solid #01d099;
+  border-left: 5px solid #d52f37;
 }
 
 /* line 89, ../sass/_partials/_skins.scss */
 .pagination > .active > a,
 .pagination > .active:hover > a,
 .portfolioFilter .current:before, .portfolioFilter a:hover:before {
-  border-color: #01d099 !important;
+  border-color: #d52f37 !important;
 }
 
 /* line 94, ../sass/_partials/_skins.scss */
 .style-caption h1:before {
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 40px solid #01d099;
+  border-left: 40px solid #d52f37;
 }
 
 /* line 99, ../sass/_partials/_skins.scss */
 .crumbs:before {
-  border-bottom: 20px solid #01d099;
+  border-bottom: 20px solid #d52f37;
 }
 
 /* line 102, ../sass/_partials/_skins.scss */
 .stats-info ul {
-  border-top-color: #01d099 !important;
+  border-top-color: #d52f37 !important;
 }
 
 /* line 105, ../sass/_partials/_skins.scss */
@@ -11652,26 +11679,26 @@ footer.footer-2 .links-footer ul li a:hover,
 .mainmenu,
 .sf-menu .sub-current,
 .header-2 {
-  border-bottom: 3px solid #01d099;
+  border-bottom: 3px solid #d52f37;
 }
 
 /* line 112, ../sass/_partials/_skins.scss */
 .header-2 .is-sticky {
-  border-bottom: 3px solid #01d099 !important;
+  border-bottom: 3px solid #d52f37 !important;
 }
 
 /* line 115, ../sass/_partials/_skins.scss */
 header,
 .overlay-player,
 .crumbs {
-  border-top: 3px solid #01d099;
+  border-top: 3px solid #d52f37;
 }
 
 /* line 120, ../sass/_partials/_skins.scss */
 .sf-arrows > li > .sf-with-ul:focus:after,
 .sf-arrows > li:hover > .sf-with-ul:after,
 .sf-arrows > .sfHover > .sf-with-ul:after {
-  border-top-color: #01d099;
+  border-top-color: #d52f37;
   /* IE8 fallback colour */
 }
 
@@ -11679,7 +11706,7 @@ header,
 ul.sub-current .current > .sf-with-ul:focus:after,
 ul.sub-current .current:hover > .sf-with-ul:after,
 ul.sub-current .current .sfHover > .sf-with-ul:after {
-  border-left-color: #01d099;
+  border-left-color: #d52f37;
   /* IE8 fallback colour */
 }
 
@@ -16455,7 +16482,7 @@ iframe.big-video {
 /* line 1226, ../sass/main.scss */
 .btn-iw {
   padding: 10px 30px;
-  background: #01d099;
+  background: #d52f37;
   color: #fff;
   margin: 15px 10px;
   display: inline-block;
@@ -16467,8 +16494,8 @@ iframe.big-video {
 }
 /* line 1231, ../sass/main.scss */
 .btn-iw.skin {
-  color: #01d099;
-  border-color: #01d099;
+  color: #d52f37;
+  border-color: #d52f37;
 }
 /* line 1234, ../sass/main.scss */
 .btn-iw.skin:hover {
@@ -17790,6 +17817,7 @@ footer .links-footer ul.columns {
 .player-ranking .info-player ul {
   list-style: none;
   padding: 20px;
+  overflow: hidden;
 }
 /* line 2328, ../sass/main.scss */
 .club-ranking .info-ranking ul li,
@@ -17831,6 +17859,21 @@ footer .links-footer ul.columns {
 .player-ranking .info-player ul li a img {
   max-width: 30px;
   margin-right: 5px;
+}
+.scroller {
+  width: 403.33px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 16px;
+  }
+.scroller::-webkit-scrollbar{width: 20px; background: #18191B}
+.scroller1 {
+  width: 403.33px;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 16px;
 }
 /* line 2348, ../sass/main.scss */
 .club-ranking .info-ranking ul li .points,
@@ -18752,6 +18795,26 @@ table tr td {
   border: 1px solid #dedede;
 }
 /* line 3125, ../sass/main.scss */
+.articlesSection___18Ien #prev___2bie8:after, .articlesSection___18Ien #next___2Qdp8:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: -30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 70px;
+  width: 40px;
+  background: url(src/assets/img/130884.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
 table tr td img {
   max-width: 40px;
   float: left;
@@ -19149,3 +19212,25 @@ table.career tr td img {
   width: 100%;
   height: 38px;
 }
+.BoxImage{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 4px;
+  background-size: 100%;
+  transition: 0.5s;
+  background-position: center;
+}
+.BoxImage:hover{
+  background-size: 110%;
+}
+.BoxImage:after{
+  content:attr(data-text);
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+

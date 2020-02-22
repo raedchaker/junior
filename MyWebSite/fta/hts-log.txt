@@ -1,0 +1,28 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 20 Dec 2019 11:24:14 at http://html.iwthemes.com/sportscup/run/index-2.html?fbclid=IwAR2iTLOVzV8CFhDd5dosMjyPOxj64SVc-wbd453pozMTdUj9bB07HrrwMtc +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "fr, en, *" http://html.iwthemes.com/sportscup/run/index-2.html?fbclid=IwAR2iTLOVzV8CFhDd5dosMjyPOxj64SVc-wbd453pozMTdUj9bB07HrrwMtc -O1 "C:\Users\souzi\Desktop\MyWebSite\fta" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/index-1.html (from html.iwthemes.com/sportscup/run/index-2.html?fbclid=IwAR2iTLOVzV8CFhDd5dosMjyPOxj64SVc-wbd453pozMTdUj9bB07HrrwMtc)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/img/img-theme/ajax-loader.gif (from html.iwthemes.com/sportscup/run/assets/css/main.css)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/group-list.html (from html.iwthemes.com/sportscup/run/index.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/group-list-html (from html.iwthemes.com/sportscup/run/index.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/about.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/events.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/club-teams.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/sports.html.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/sports.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/gallergallery-4-colums.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/gallergallery-2-colums.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/gallergallery-3-colums.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/feature-princing-tables.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/feature-grid-system.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/feature-typograpy.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/feature-icons.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+11:28:26	Error: 	"Not Found" (404) at link html.iwthemes.com/sportscup/run/feature-elements.html (from html.iwthemes.com/sportscup/run/sitemap.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 12 seconds : 191 links scanned, 173 files written (8131320 bytes overall) [5904450 bytes received at 23430 bytes/sec], 2625705 bytes transferred using HTTP compression in 63 files, ratio 13%, 7.9 requests per connection
+(17 errors, 0 warnings, 0 messages)
